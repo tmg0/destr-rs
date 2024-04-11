@@ -1,0 +1,46 @@
+{
+  "name": "@tmg0/destr-rs",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "destr-rs",
+    "triples": {
+      "defaults": false,
+      "additional": [
+        "aarch64-apple-darwin",
+        "aarch64-unknown-linux-gnu",
+        "aarch64-unknown-linux-musl",
+        "aarch64-pc-windows-msvc",
+        "armv7-unknown-linux-gnueabihf",
+        "x86_64-unknown-linux-musl",
+        "i686-pc-windows-msvc"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "vitest run",
+    "universal": "napi universal",
+    "version": "napi version",
+    "bench": "jiti test/bench.ts"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.13.3",
+    "@napi-rs/cli": "^2.18.0",
+    "@types/node": "^20.12.7",
+    "destr": "^2.0.3",
+    "eslint": "^9.0.0",
+    "jiti": "^1.21.0",
+    "mitata": "^0.1.11",
+    "typescript": "^5.4.5",
+    "vitest": "^1.4.0"
+  }
+}
