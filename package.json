@@ -1,8 +1,10 @@
 {
   "name": "@tmg0/destr-rs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "pnpm@8.15.6",
+  "description": "Convenient alternative for JSON.parse Rewritten destr with Rust",
   "license": "MIT",
+  "repository": "https://github.com/tmg0/destr-rs",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -42,7 +44,5 @@
     "mitata": "^0.1.11",
     "typescript": "^5.4.5",
     "vitest": "^1.4.0"
-  },
-  "repository": "https://github.com/tmg0/destr-rs",
-  "description": "Convenient alternative for JSON.parse Rewritten destr with Rust"
+  }
 }
