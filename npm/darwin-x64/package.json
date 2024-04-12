@@ -11,7 +11,7 @@
   "files": [
     "destr-rs.darwin-x64.node"
   ],
-  "description": "String Case Utils by Rust",
+  "description": "Convenient alternative for JSON.parse Rewritten destr with Rust",
   "license": "MIT",
   "engines": {
     "node": ">= 10"

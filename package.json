@@ -42,5 +42,7 @@
     "mitata": "^0.1.11",
     "typescript": "^5.4.5",
     "vitest": "^1.4.0"
-  }
+  },
+  "repository": "https://github.com/tmg0/destr-rs",
+  "description": "Convenient alternative for JSON.parse Rewritten destr with Rust"
 }

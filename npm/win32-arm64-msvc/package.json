@@ -11,8 +11,10 @@
   "files": [
     "destr-rs.win32-arm64-msvc.node"
   ],
+  "description": "Convenient alternative for JSON.parse Rewritten destr with Rust",
   "license": "MIT",
   "engines": {
     "node": ">= 10"
-  }
+  },
+  "repository": "https://github.com/tmg0/destr-rs"
 }
