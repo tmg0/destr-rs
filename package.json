@@ -8,7 +8,6 @@
   "napi": {
     "name": "destr-rs",
     "triples": {
-      "defaults": false,
       "additional": [
         "aarch64-apple-darwin",
         "aarch64-unknown-linux-gnu",
